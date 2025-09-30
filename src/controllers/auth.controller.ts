@@ -21,7 +21,7 @@ class AuthController{
                 }
             }
         } catch (error) {
-            console.log(error)
+            //console.log(error)
             if (error instanceof ClientResponseError) {
                 return {
                     status: error.status,
