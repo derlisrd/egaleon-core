@@ -1,4 +1,4 @@
-import { z } from "zod";
+/* import { z } from "zod";
 
 const loginSchema = z.object({
     identity: z.string({
@@ -12,3 +12,4 @@ const loginSchema = z.object({
 });
 
 export default loginSchema
+ */
