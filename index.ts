@@ -1,5 +1,6 @@
 import express from 'express'
 import cors from 'cors'
+
 import api from './src/routes/index.js';
 const app = express()
 
