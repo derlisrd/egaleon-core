@@ -7,6 +7,7 @@ export interface RegisterParams {
     document_type: string;
     document_number: string;
     phone: string;
+    
 }
 
 
