@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(api)
 
 
-const PORT = 4040
+const PORT = process.env.PORT || 4040
 app.listen(PORT, () => {
     console.log(`Server running http://localhost:${PORT}`);
   });
