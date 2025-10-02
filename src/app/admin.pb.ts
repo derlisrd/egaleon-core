@@ -1,5 +1,5 @@
 // authService.js (o un archivo de inicialización)
-import pb from "@/src/config/pocketbase.js";
+import pb from "../config/pocketbase.js";
 import logger from "../utils/logger.js";
 // ...
 

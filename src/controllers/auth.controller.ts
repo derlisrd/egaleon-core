@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-import { handleError } from '@/src/utils/error.handler.js';
+import { handleError } from '../utils/error.handler.js';
 import authService from '../services/auth.service.js';
 
 class AuthController {

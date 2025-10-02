@@ -1,7 +1,7 @@
-import pb from "@/src/config/pocketbase.js";
+import pb from "../config/pocketbase.js";
 import { ClientResponseError } from "pocketbase";
-//import type { AuthResponse, LoginResult } from "@/src/types/auth/login.types.js";
-import { RegisterParams } from "@/src/types/auth/register.types.js";
+//import type { AuthResponse, LoginResult } from "../types/auth/login.types.js";
+import { RegisterParams } from "../types/auth/register.types.js";
 import logger from "../utils/logger.js";
 
 
