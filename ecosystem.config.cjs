@@ -3,7 +3,10 @@ module.exports = {
     name: "egaleon_core",
     script: "./dist/index.js",
     interpreter: "node",
-    interpreter_args: "--env-file=.env",
+    node_args: [
+      "-r", "tsconfig-paths/register",
+      "--env-file=.env" 
+    ],
     env: {
       NODE_ENV: "production"
     },
