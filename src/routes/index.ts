@@ -5,10 +5,10 @@ const api  = Router()
 
 api.use('/api/auth',authRoute)
 
-api.get('/online',async function(){
-    return {
-        'success':true
-    }
+api.get('/online',async function(req,res){
+    return res.json({
+        success:true
+    })
 })
 
 
