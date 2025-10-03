@@ -24,6 +24,7 @@
   "dependencies": {
     "cors": "2.8.5",
     "express": "5.1.0",
+    "jsonwebtoken": "9.0.2",
     "pocketbase": "0.26.2",
     "winston": "3.18.3",
     "zod": "4.1.11"
